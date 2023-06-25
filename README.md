@@ -1,6 +1,7 @@
 # Advanced-CSS-Professional-Portfolio
 
 ## Description
+This is my personal portfolio website showcasing my skills, projects, and experiences as a web developer. Built with HTML, CSS, and JavaScript, this website serves as a platform to highlight my work and provide information about me.
 
 ## User Story
 
