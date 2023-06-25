@@ -3,10 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Link> </Link>
-    <title>Document</title>
+    <!-- <link rel = "stylesheet" href="./assets/reset.css"/> -->
+    <link rel = "stylesheet" href="./assets/styles.css"/>
+    <title>Charlton Ortega Portfolio</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Charlton Ortega</h1>
+        <nav> 
+            <ul>
+                <li> <a class="nav-menu" href="#about-me">About Me</a></li>
+                <li> <a class="nav-menu" href="#project">Projects</a></li>
+                <li> <a class="nav-menu" href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- The section is the for the banner styling -->
+<section class="hero-banner">
+    <div class="sub-heading-banner">Professional Portfolio</div>
+</section>
+<main>
+    <!-- section for left side main headings -->
+    <section class="body-wrapper">
+        <aside class="body-left" id="about-me">
+                <h1 class="body-left-content">About Me</h1>
+        </aside>
+            <!-- right section for avatar and introduction -->
+            <section class="body-right" id="about-me-content">
+                    <img src="/assets/images/profileheadshot.png" class ="profile-headshot" alt ="Charlton Ortega profile headshot">
+                    <p> Hello! My name is <em>Charlton Ortega</em>, and I am an enthusiastic and motivated individual currently enrolled in a <em> Full Stack Web Developer Bootcamp</em> at the <em> University of Adelaide</em>. I have always had a passion for technology and a strong desire to pursue a career in the ever-evolving field of software development. Joining this bootcamp is a significant step in my journey to becoming a skilled programmer.</p>
+            </section>
+    </section>
+    <!-- section for left side main headings -->
+    <section class="body-wrapper">
+        <aside class="body-left" id="project">
+                <h1 class="body-left-content">Projects</h1>
+        </aside>
+         <!-- right section for images of completed and upcoming projects -->
+            <div class="body-right" id="project-content">
+                <a href="https://charltonortega.github.io/HTML-CSS-Git-Challenge-Code-Refactor/">
+                    <img src="./assets/images/Refactor.png" class ="refactor-showcase"> </a>
+                    <div class ="project-header-tag">
+                        <span class="image-header">Horiseon</span>
+                        <!-- break tag used to help from new line within section for title and skills -->
+                            <br> 
+                                <span class="image-skills">HTML and Advanced CSS</span>
+                    </div>
+                <!-- section repeated non relevant link used as placeholder for links -->
+                <a href="https://placehold.co/">
+                    <img src="/assets/images/placeholder1.png" class ="refactor-showcase"> </a>
+                    <div class ="project-header-tag">
+                        <span class="image-header">Upcoming Project!</span>
+                            <br>
+                                <span class="image-skills">Java, C# and Python</span>
+                        </div>
+                 <a href="https://placehold.co/">
+                    <img src="/assets/images/placeholder2.png" class ="refactor-showcase"> </a>
+                    <div class ="project-header-tag">
+                        <span class="image-header">Upcoming Project!</span>
+                
+                            <br>
+                            <span class="image-skills">JavaScript, React, Angular</span>
+                    </div>
+            </div>
+    </section>
+    <section class="body-wrapper">
+        <!-- same styling duplicated from sections before -->
+        <aside class="body-left" id="contact">
+          <h1 class="body-left-content">Contact Me</h1>
+        </aside>
+        <div class="body-right" id="contact-right">
+          <div class="contact-icons">
+            <a href="https://github.com/Charltonortega">
+            <img src="/assets/images/githubiconwhite.png" class="contact-icons" alt="github-logo"> </a>
+            <!-- working mailto: emaillink for direct access -->
+            <a href="mailto:charltonortega14@gmail.com">
+            <img src="./assets/images/gmail.png" class="contact-icons"alt="gmail"></a>
+             <!-- section repeated non relevant link used as placeholder for links -->   
+            <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+            <img src="./assets/images/twitter-icon.png" class="contact-icons"alt="twitter-logo"> </a>
+          </div>
+        </div>
+      </section>
+</main>
+
+<footer class="footer">
+    <h2>Made by Charlton Ortega</h2>
+    <p>Enjoy!</p>
+  </footer>
 </body>
 </html>
