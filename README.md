@@ -44,10 +44,10 @@ Once you have the project files on your machine, navigate to the project's root 
 Open the HTML file in your preferred web browser. You can do this by double-clicking the HTML file or right-clicking it and selecting "Open With" and choosing your browser.
 
 ## Screenshot
-![Screenshot of deployed application on browser".] EDIT LATER
+![Screenshot of deployed application on browser".](./assets/images/githubportfolioscreenshot.png)
 
 The URL of the deployed application:
-EDIT LATER
+https://charltonortega.github.io/Advanced-CSS-Professional-Portfolio/
 
 The URL of the GitHub repository:
-EDIT LATER
+https://github.com/Charltonortega/Advanced-CSS-Professional-Portfolio
