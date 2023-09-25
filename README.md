@@ -45,7 +45,10 @@ Once you have the project files on your machine, navigate to the project's root 
 Open the HTML file in your preferred web browser. You can do this by double-clicking the HTML file or right-clicking it and selecting "Open With" and choosing your browser.
 
 ## Group Projects
-[RecipeRadar](https://jujusoi.github.io/Project-1/index.html) - is a web application that helps users find recipes based on the ingredients they have. It also provides nutritional information and allows users to save their favorite recipes for easy access in the future.
+[RecipeRadar](https://jujusoi.github.io/Project-1/index.html) - RecipeRadar is a web application that helps users find recipes based on the ingredients they have. It also provides nutritional information and allows users to save their favorite recipes for easy access in the future.
+
+[ReadMi](https://github.com/jujusoi/G3-ReadMi) -ReadMi is a full-stack web application that simplifies book discovery and management. Search for books, create wishlists, engage with the reading community, and more in this user-friendly platform.
+
 
 ## Screenshot
 ![Screenshot of deployed application on browser".](./assets/images/githubportfolioscreenshot.png)
